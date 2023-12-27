@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.calculator-button[value="sqrt"]::before {
+  content: "√";
+}
+
+.calculator-button[value="^"]::before {
+  content: "x^y";
+}
